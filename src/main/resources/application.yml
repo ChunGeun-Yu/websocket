@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: websocket
+  output:
+    ansi:
+      enabled: ALWAYS
+
+logging:
+  level:
+    org:
+      springframework:
+        messaging: trace
